@@ -10,7 +10,7 @@ import json
 
 csvfile_name='mqtt.csv'
 sensors={}
-mqtt_broker_adr = "10.100.107.199"
+mqtt_broker_adr = "10.100.100.100"
 mqtt_broker_port = 8883
 client_id="{}-{:04d}".format("MQTT",random.randint(0,9999))
 run_time = timedelta(seconds=15*60)
